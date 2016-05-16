@@ -1,4 +1,5 @@
-
+# read file from file.txt and return x and y
+import numpy as np
 def readtxt():
     fp=open('file.txt','r')
     allLines=fp.readlines()
@@ -37,6 +38,7 @@ def readtxt():
             cla=1
         x.append([age,education,area,level])
         y.append(cla)
+        xx=np.array(x)
     # for line in x:
     #     print line
     # print y

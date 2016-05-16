@@ -1,0 +1,17 @@
+attribute	age	gender	income	buy
+1	<35	male	m	n
+2	>=35	female	m	n
+3	>=35	female	m	n
+4	>=35	female	l	n
+5	<35	male	h	n
+6	>=35	female	l	n
+7	<35	female	l	n
+8	<35	female	h	y
+9	>=35	male	m	y
+10	<35	male	h	n
+11	>=35	female	m	n
+12	<35	male	l	n
+13	>=35	female	m	n
+14	>=35	male	l	y
+15	>=35	male	m	y
+16	>=35	female	l	n
