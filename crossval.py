@@ -19,6 +19,6 @@ def croval(x,y):
         # mytree.printTree()
         if mytree.predictClass(x[i])==y[i]:
             mypre+=1
-            print i
+            # print i
     mypre=float(mypre)/float(sample)
     return mypre

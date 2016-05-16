@@ -1,4 +1,4 @@
-### build up decision tree
+### build up decision tree, using ID3 algorithm
 import cal_gain
 import numpy as np
 class node(object):
@@ -147,21 +147,6 @@ class tree(object):
                 rightPre+=1
         pre=float(rightPre)/row
         return pre
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

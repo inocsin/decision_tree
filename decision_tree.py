@@ -16,4 +16,4 @@ cro=crossval.croval(x,y)
 # print y
 # print len(x)
 # print mypre
-print 'The precision of decision tree calculate by cross validation is '
+print "The precision of decision tree calculate by cross validation is %.2f%%"%(cro*100)
