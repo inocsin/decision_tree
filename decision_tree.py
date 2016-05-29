@@ -5,10 +5,10 @@ import gen_tree
 import crossval
 (x,y)=readfile.readtxt()
 cro=crossval.croval(x,y)
-# mytree=gen_tree.tree(x,y)
+mytree=gen_tree.tree(x,y)
 # mytree.markTreeId()
 # mytree.printTree()
-# mypre=mytree.precison(x,y)
+mypre=mytree.precison(x,y)
 
 
 # print type(x)
@@ -16,4 +16,5 @@ cro=crossval.croval(x,y)
 # print y
 # print len(x)
 # print mypre
+print "The original precision is %.2f%%"%(mypre*100)
 print "The precision of decision tree calculate by cross validation is %.2f%%"%(cro*100)
